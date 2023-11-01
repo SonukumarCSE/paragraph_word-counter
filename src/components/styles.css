@@ -1,21 +1,28 @@
-.container{
+.container {
     max-width: 450px;
     margin: auto;
     margin-top: 20px;
     text-align: center;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light gray background color */
+    border-radius: 10px; /* Rounded corners */
 }
 
-textarea{
+textarea {
     width: 100%;
-    border: 2px solid;
+    border: 2px solid #3498db; /* Border color */
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px; /* Increased padding for better spacing */
     box-sizing: border-box;
+    background-color: #ecf0f1; /* Light blue-gray background color */
+    color: #333; /* Text color */
+    font-size: 16px; /* Adjusted font size */
 }
 
 .displaycount {
     text-align: left;
-    opacity: 90%;
+    opacity: 0.9; /* Reduced opacity for a subtle effect */
+    color: #555; /* Text color */
+    font-size: 14px; /* Adjusted font size */
 }
